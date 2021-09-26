@@ -1,0 +1,258 @@
+* {
+    font-family: Helvetica, Verdana, sans-serif;
+}
+
+body {
+    background-color: #7beaec18;
+}
+
+#logoCaba {
+    float: left;
+}
+
+#logoArg {
+    float: right;
+
+}
+
+header {
+    min-width: 1300px;
+}
+
+h1 {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 15px;
+    letter-spacing: 2px;
+    text-align: center;
+    text-shadow: 2px 2px 5px #00878a;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #43b7ba;
+    background-image: 
+        linear-gradient(90deg, rgba(255,255,255,.07) 50%, transparent 50%),
+        linear-gradient(90deg, rgba(255,255,255,.13) 50%, transparent 50%),
+        linear-gradient(90deg, transparent 50%, rgba(255,255,255,.17) 50%),
+        linear-gradient(90deg, transparent 50%, rgba(255,255,255,.19) 50%);
+    background-size: 13px, 29px, 37px, 53px;
+}
+
+h2 {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 10px;
+    text-align: center;
+    text-shadow: 2px 2px 5px #00878a;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #00878a;
+    background-image: 
+        linear-gradient(90deg, rgba(255,255,255,.07) 50%, transparent 50%),
+        linear-gradient(90deg, rgba(255,255,255,.13) 50%, transparent 50%),
+        linear-gradient(90deg, transparent 50%, rgba(255,255,255,.17) 50%),
+        linear-gradient(90deg, transparent 50%, rgba(255,255,255,.19) 50%);
+    background-size: 13px, 29px, 37px, 53px;
+}
+
+h3 {
+    font-size: 30px;
+    padding-top: 10%;
+}
+
+#ingreso {
+    text-align: center;
+    background-color: #ff7f8534;
+    min-width: 305px;
+    margin-top: 4%;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-radius: 5%;
+}
+
+
+input {
+    margin-top: 5%;
+    font-size: 25px;
+    border-style: ridge;
+}
+
+#bIngresar:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+#bIngresar {
+    padding: 10px 15px;
+    margin-bottom: 5%;
+    border-style: outset;
+    border-color: #00878a;
+    color: #fafafa;
+    background-color: #b90030;
+    border-radius: 10%;
+    opacity: 0.6;
+}
+
+#opciones {
+    text-align: right;
+    padding: 5%;
+    line-height: 25px;
+}
+
+.navCont {
+    min-width: 1300px;
+    background-color: #00888a9a;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.navBar {
+    width: 900px;
+    height: 40px;
+    text-align: center;
+    background-color: #7beaec;
+}
+
+.userName {
+    font-weight: bold;
+    color: black;
+    align-self: center;
+    margin-left: 16px;
+}
+
+.cSalir {
+    align-self: center;
+}
+
+.bSalir {
+    border-style: outset;
+    border-color: #00888a9a;
+    border-radius: 10%;
+    color: white;
+    background-color: #b90030;
+    padding: 8px;
+    float: right;
+    margin-right: 32px;
+}
+
+.navOp {
+    margin: 5px;
+    padding: 5px;
+}
+
+#localidad, #medicamento {
+    margin-right: 20px;
+}
+
+#mainBody {
+    width: 1276px; 
+    height: 710px;
+    background-color: #ff7f8534;
+    border-radius: 2%;
+    margin: 16px auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+footer {
+    position: absolute;
+    bottom: 0 auto;
+    height: 50px;
+}
+
+.card {
+    margin: 16px;
+    border-style: solid;
+    border-color: #006ac02c;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 0px;
+    height: 300px;
+    width: 600px;
+    background:
+        radial-gradient(#b900313f 15%, transparent 20%) 0 0,
+        radial-gradient(#b9003146 15%, transparent 20%) 8px 8px,
+        radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px,
+        radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
+    background-color:#f24b59d7;
+    background-size:16px 16px;
+}
+
+.cardCont {
+    width: 180px;
+    margin: 15px;
+    text-align: left;
+    font-size: large;
+    font-weight: bold;
+    text-shadow: 3px 3px 0px white;
+    text-shadow: 0px 0px 3px white;
+}
+
+h4 {
+    font-size: 25px;
+    margin-top: -10px;
+    margin-bottom: 0;
+}
+
+.fecha {
+    line-height: 30px;
+    font-size: 20px;
+    margin-bottom: 40px;
+    margin-top: 40px
+
+}
+
+.nombreDire {
+    text-align: center;
+    position: absolute;
+    margin-top: 10px;
+    bottom: 5px;
+}
+
+.descuento {
+    border: inset;
+    padding: 15px;
+    position: absolute;
+    right: 0;
+    font-size: 200%;
+    font-weight: bold;
+    color: white;
+    background-color: #b90030;
+}
+
+.map {
+    padding: 15px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+
+.imgFarmaCont {
+    height: 300px;
+}
+
+hr {
+    color: #7beaec81;
+}
+
+.navPaginas {
+    grid-column: 1 / span 2;
+    text-align: center;
+}
+
+.nPagina {
+    text-align: center;
+    font-size: smaller;
+    background-color: #43b6ba77;
+    border-radius: 40%;
+}
+
+.btnNavPaginas {
+    background-color: #43b7ba;
+    min-width: 70px;
+    padding: 4px;
+    border-radius: 10%;
+}
+
+

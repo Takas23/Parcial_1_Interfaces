@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8"/>
+    <link rel="stylesheet" href="estilos.css">
+    <title>Ministerio de salud</title>
+</head>
+<body>
+    
+    <header>
+        <div>
+            <div class="logos">
+                <img id="logoCaba" src="logoCaba1.jpg" alt="logo_caba" height="116px">
+                <img id="logoArg" src="logoAr1.jpg" alt="logo_arg" height="116px">
+            </div>
+            <h2>
+                CIUDAD AUTONOMA DE BUENOS AIRES
+            </h2>
+            <h1>
+                MINISTERIO DE SALUD
+            </h1>
+        </div>
+    </header>
+    
+    <main>
+        <div class="navCont">
+            <nav class="navBar">
+                <form >
+                    Localidad: <select name="localidad" id="localidad" class="navOp" >
+                        <option hidden selected>Seleccione localidad</option>
+                        <option value="caballito">Caballito</option>
+                        <option value="palermo">Palermo</option>
+                    </select>
+                    Medicamento: <select name="medicamento" id="medicamento" class="navOp">
+                        <option hidden selected>Seleccione medicamento</option>
+                        <option value="ibuprofeno">Ibuprofeno</option>
+                        <option value="paracetamol">Paracetamol</option>
+                    </select>
+                    Filtrar: <select name="filtros" id="filtros" class="navOp">
+                        <option value="Precio mas bajo" selected>Por precio mas bajo</option>
+                        <option value="Marca">Por marca</option>
+                        <option value="Calle">Por calle</option>
+                    </select>
+                </form>
+            </nav>
+            <div class="userName">
+                DAMIAN TAKASHIMA
+            </div>
+            <div class="cSalir">
+                <a href="login.html"><button class="bSalir">SALIR</button></a>
+            </div>
+        </div>
+
+        <div id="mainBody">
+            <div class="card">
+                <div class="imgFarma">
+                    <img src="farmacia1a.jpg" alt="img_farmacia1" height="300px">
+                </div>
+                <div class="cardCont">
+                    <h4>Paracetamol<br>
+                        Bayer
+                    </h4>
+                    <hr>
+                    <p class="fecha">
+                        Valido hasta<br>
+                        2 Dic 2023
+                    </p>
+                    <hr>
+                    <p class="nombreDire">
+                        "FARMACIA PEPA"<br>
+                        Cabildo, 1500
+                    </p>
+                </div>    
+                <div>
+                    <div class="descuento">
+                        20%
+                    </div>
+                    <div class="map">
+                            <a href="https://goo.gl/maps/UTGuGgkkAokRy5BT6" target="_blank">
+                            <img src="googleMaps.png" alt="logo_google_maps" height="50px">
+                        </a>
+                    </div>
+                </div>   
+            </div>
+
+            <div class="card">
+                <div class="imgFarma">
+                    <img src="farmacia2a.jpg" alt="img_farmacia2" height="300px">
+                </div>
+                <div class="cardCont">
+                    <h4>Ibuprofeno<br>
+                        Pfizer
+                    </h4>
+                    <hr>
+                    <p class="fecha">
+                        Valido hasta<br>
+                        10 Nov 2023
+                    </p>
+                    <hr>
+                    <p class="nombreDire">
+                        "FARMACIA JUANA"<br>
+                        Av. Congreso, 1000
+                    </p>
+                </div>    
+                <div>
+                    <div class="descuento">
+                        50%
+                    </div>
+                    <div class="map">
+                        <a href="https://goo.gl/maps/W1t6DTazNzottPyg7" target="_blank">
+                            <img src="googleMaps.png" alt="logo_google_maps" height="50px">
+                        </a>
+                    </div>
+                </div>   
+            </div>
+
+            <div class="card">
+                <div class="imgFarma">
+                    <img src="farmacia3a.jpg" alt="img_farmacia3" height="300px">
+                </div>
+                <div class="cardCont">
+                    <h4>Aspirina <br>
+                        Bayer
+                    </h4>
+                    <hr>
+                    <p class="fecha">
+                        Valido hasta<br>
+                        22 Ago 2023
+                    </p>
+                    <hr>
+                    <p class="nombreDire">
+                        "FARMACIA ITALIANA" <br>
+                        Av. Forest, 400
+                    </p>
+                </div>    
+                <div>
+                    <div class="descuento">
+                        55%
+                    </div>
+                    <div class="map">
+                        <a href="https://goo.gl/maps/a27LycyAEqsPmGFK9" target="_blank">
+                            <img src="googleMaps.png" alt="logo_google_maps" height="50px">
+                        </a>
+                    </div>
+                </div>   
+            </div>
+
+            <div class="card">
+                <div class="imgFarma">
+                    <img src="farmacia4a.jpg" alt="img_farmacia4" height="300px">
+                </div>
+                <div class="cardCont">
+                    <h4>Butilhioscina <br>
+                        Buscapina
+                    </h4>
+                    <hr>
+                    <p class="fecha">
+                        Valido hasta<br>
+                        15 Jun 2023
+                    </p>
+                    <hr>
+                    <p class="nombreDire">
+                        "FARMACIA BROCCA" <br>
+                        Esmeralda, 700
+                    </p>
+                </div>    
+                <div>
+                    <div class="descuento">
+                        90%
+                    </div>
+                    <div class="map">
+                        <a href="https://goo.gl/maps/zMXiJd5h2TVGSD3A6" target="_blank">
+                            <img src="googleMaps.png" alt="logo_google_maps" height="50px">
+                        </a>
+                    </div>
+                </div>   
+            </div>
+
+            <div class="navPaginas">
+                <button class="btnNavPaginas">Anterior</button> 
+                <span class="nPagina"> 1 </span>
+                <button class="btnNavPaginas">Siguiente</button>
+            </div>
+        </div>
+
+    </main>
+    
+    <footer>
+        Damian Takashima
+    </footer>
+
+<script src="scripts.js"></script>
+</body>
+
+</html>
